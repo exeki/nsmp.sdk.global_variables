@@ -1,4 +1,4 @@
-package ru.kazantsev.nsd.sdk.global_variables;
+package ru.kazantsev.nsmp.sdk.global_variables;
 
 import ru.naumen.core.server.eventaction.jms.Notification;
 import ru.naumen.core.server.script.spi.ScriptDtOList;

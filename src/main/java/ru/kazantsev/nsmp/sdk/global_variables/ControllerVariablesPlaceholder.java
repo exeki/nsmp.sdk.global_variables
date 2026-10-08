@@ -1,4 +1,4 @@
-package ru.kazantsev.nsd.sdk.global_variables;
+package ru.kazantsev.nsmp.sdk.global_variables;
 
 import ru.naumen.core.shared.dto.ISDtObject;
 import jakarta.servlet.http.HttpServletRequest;

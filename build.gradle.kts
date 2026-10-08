@@ -3,8 +3,8 @@ plugins {
     id("maven-publish")
 }
 
-group = "ru.kazantsev.nsd.sdk"
-version = "1.6.0"
+group = "ru.kazantsev.nsmp.sdk"
+version = "1.6.1"
 
 java {
     withJavadocJar()
@@ -41,5 +41,5 @@ repositories {
 }
 
 dependencies {
-    api ("ru.kazantsev.nsd.sdk:upper_level_classes:1.5.0")
+    api ("ru.kazantsev.nsmp.sdk:upper_level_classes:1.6.1")
 }
