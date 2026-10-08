@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aabfee2b-253c-48c9-9841-9b0676c9cce3" name="Changes" comment="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров.">
-      <change afterPath="$PROJECT_DIR$/sdkPlaceholderNsmp.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aabfee2b-253c-48c9-9841-9b0676c9cce3" name="Changes" comment="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов.">
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +171,7 @@
       <workItem from="1779734268775" duration="4166000" />
       <workItem from="1779977748696" duration="22000" />
       <workItem from="1780442190487" duration="599000" />
-      <workItem from="1791489376471" duration="539000" />
+      <workItem from="1791489376471" duration="863000" />
     </task>
     <task id="LOCAL-00001" summary="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров.">
       <option name="closed" value="true" />
@@ -192,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779743687781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов.">
+      <option name="closed" value="true" />
+      <created>1791490080774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791490080774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов.">
+      <option name="closed" value="true" />
+      <created>1791490177664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791490177664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +213,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров." />
-    <option name="LAST_COMMIT_MESSAGE" value="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров." />
+    <MESSAGE value="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов." />
   </component>
 </project>

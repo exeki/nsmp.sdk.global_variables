@@ -1,7 +1,5 @@
 # nsmp.sdk.global_variables
 
-[![GitHub stars](https://img.shields.io/github/stars/exeki/nsmp.sdk.global_variables)](https://github.com/exeki/nsmp.sdk.global_variables/stargazers)
-
 **Плейсхолдер глобальных переменных для NSMP** — чистая, лёгкая и IDE-ориентированная библиотека, предоставляющая статические классы с глобальными переменными для автодополнения и удобства разработки.
 
 В NSMP скрипты зачастую используют глобальные переменные runtime контекста (Например `subject`, `user`, `api`, `utils`). IDE не понимает эти переменные из коробки, что усложняет разработку и снижает developer experience.
