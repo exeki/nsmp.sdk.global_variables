@@ -1,18 +1,18 @@
-# nsmp.sdk.global_variables
+# nsd.sdk.global_variables
 
-[![GitHub stars](https://img.shields.io/github/stars/exeki/nsmp.sdk.global_variables)](https://github.com/exeki/nsmp.sdk.global_variables/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/exeki/nsd.sdk.global_variables)](https://github.com/exeki/nsd.sdk.global_variables/stargazers)
 
 **Плейсхолдер глобальных переменных для NSMP** — чистая, лёгкая и IDE-ориентированная библиотека, предоставляющая статические классы с глобальными переменными для автодополнения и удобства разработки.
 
 В NSMP скрипты зачастую используют глобальные переменные runtime контекста (Например `subject`, `user`, `api`, `utils`). IDE не понимает эти переменные из коробки, что усложняет разработку и снижает developer experience.
 
-**nsmp.sdk.global_variables** решает эту проблему структурно:
-- Предоставляет **статические классы-плейсхолдеры** для всех ключевых NSMP-переменных,
+**nsd.sdk.global_variables** решает эту проблему структурно:
+- Предоставляет **статические классы-плейсхолдеры** для всех ключевых NSD-переменных,
 - Повышает IDE-поддержку (автодополнение, навигация по коду),
 - Снижает число ошибок во время разработки.
 
 ## 🧪 Сценарии применения
-- Разработка NSMP-скриптов в IntelliJ IDEA и других Java-IDE
+- Разработка NSD-скриптов в IntelliJ IDEA и других Java-IDE
 - Повышение читаемости и поддержки кода
 - Минимизация ошибок на этапе написания логики
 
@@ -39,7 +39,7 @@ repositories {
 2. Добавьте туда же библиотеку:
 ```kotlin
 dependencies {
-    implementation("ru.kazantsev.nsmp:sdk.global_variables:<version>")
+    implementation("ru.kazantsev.nsd:sdk.global_variables:<version>")
 }
 ```
 
@@ -48,8 +48,8 @@ dependencies {
 ## 🧩 Использование
 Для получения автодополнения и подсказок IDE подключите статические импорты в свой скрипт:
 ```java
-import static ru.kazantsev.nsmp.global_variables.ApiPlaceholder.*;
-import static ru.kazantsev.nsmp.global_variables.GlobalVariablesPlaceholder.*;
+import static ru.kazantsev.nsd.global_variables.ApiPlaceholder.*;
+import static ru.kazantsev.nsd.global_variables.GlobalVariablesPlaceholder.*;
 ```
 
 Пример:
@@ -67,7 +67,7 @@ ISDtObject comment = utils.create(comment, [
 
 ### Основные компоненты
 ```
-src/main/java/ru/kazantsev/nsmp/sdk/global_variables/
+src/main/java/ru/kazantsev/nsd/sdk/global_variables/
 ├── ApiPlaceholder.java
 ├── GlobalVariablesPlaceholder.java
 ├── MailVariablePlaceholder.java
@@ -83,7 +83,7 @@ PR и идеи по расширению списка плейсхолдеров
 
 Рекомендуемый flow:
 ```
-git fork https://github.com/exeki/nsmp.sdk.global_variables
+git fork https://github.com/exeki/nsd.sdk.global_variables
 git checkout -b feature/<name>
 git commit -m "feat: description"
 git push origin feature/<name>
