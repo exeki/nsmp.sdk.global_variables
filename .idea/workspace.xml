@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aabfee2b-253c-48c9-9841-9b0676c9cce3" name="Changes" comment="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов." />
+    <list default="true" id="aabfee2b-253c-48c9-9841-9b0676c9cce3" name="Changes" comment="тык">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kazantsev/nsmp/sdk/global_variables/SchedulerVariablesPlaceholder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdkPlaceholderNsmp.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/sdkPlaceholderNsmp.groovy" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="20" />
+    <option name="cachedIndexableFilesCount" value="21" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -49,6 +53,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -80,28 +91,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.nsd.sdk.global_variables [build].executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/jvm/nsd/sdk/nsd.sdk.global_variables",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.nsd.sdk.global_variables [build].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/jvm/nsd/sdk/nsd.sdk.global_variables&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\jvm\nsd\sdk\nsd.sdk.global_variables" />
@@ -169,7 +180,8 @@
       <workItem from="1779734268775" duration="4166000" />
       <workItem from="1779977748696" duration="22000" />
       <workItem from="1780442190487" duration="599000" />
-      <workItem from="1791489376471" duration="1222000" />
+      <workItem from="1791489376471" duration="3124000" />
+      <workItem from="1791993970507" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров.">
       <option name="closed" value="true" />
@@ -211,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791490319712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="тык">
+      <option name="closed" value="true" />
+      <created>1791490909533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791490909533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров." />
     <MESSAGE value="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов." />
-    <option name="LAST_COMMIT_MESSAGE" value="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов." />
+    <MESSAGE value="тык" />
+    <option name="LAST_COMMIT_MESSAGE" value="тык" />
   </component>
 </project>

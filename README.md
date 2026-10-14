@@ -59,7 +59,7 @@ ISDtObject comment = utils.create(comment, [
 ])
 ```
 > [!WARNING]  
-> Если хотите переносить скрипты с использованием данных плейсхолдеров в NSMP без удаления импортов из скриптов, нужно добавить модуль [sdkPlaceholder](sdkPlaceholder.groovy) в инсталляцию.
+> Если хотите переносить скрипты с использованием данных плейсхолдеров в NSMP без удаления импортов из скриптов, нужно добавить модуль [sdkPlaceholderNsmp.groovy](sdkPlaceholderNsmp.groovy)) в инсталляцию.
 
 ## 🗂 Структура проекта
 
@@ -75,6 +75,8 @@ src/main/java/ru/kazantsev/nsmp/sdk/global_variables/
 - **ApiPlaceholder** — Глобальные API-объекты (`api`, `utils` и др.).
 - **GlobalVariablesPlaceholder** — Базовые переменные контекста (`subject`, `user` и др.).
 - **MailVariablePlaceholder** — Переменные, используемые в обработчиках почты.
+- **ControllerVariablesPlaceholder** - переменные, используемые при обработке входящих http запросов
+- **SchedulerVariablesPlaceholder** - переменные, используемые в скриптах задач планировщиков
 
 ## 🤝 Contributing
 PR и идеи по расширению списка плейсхолдеров приветствуются (если по делу).
