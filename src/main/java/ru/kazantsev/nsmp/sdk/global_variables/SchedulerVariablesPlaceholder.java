@@ -6,5 +6,5 @@ public class SchedulerVariablesPlaceholder {
     /**
      * Информация о текущей задаче планировщика.
      */
-    ISchedulerTaskWrapper currentTaskInfo;
+    public static ISchedulerTaskWrapper currentTaskInfo;
 }
