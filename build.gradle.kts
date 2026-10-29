@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "ru.kazantsev.nsmp.sdk"
-version = "1.6.4"
+version = "1.6.5"
 
 java {
     withJavadocJar()
@@ -41,5 +41,5 @@ repositories {
 }
 
 dependencies {
-    api ("ru.kazantsev.nsmp.sdk:upper_level_classes:1.6.2")
+    api ("ru.kazantsev.nsmp.sdk:upper_level_classes:1.6.5")
 }

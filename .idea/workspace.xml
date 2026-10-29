@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aabfee2b-253c-48c9-9841-9b0676c9cce3" name="Changes" comment="тык">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kazantsev/nsmp/sdk/global_variables/SchedulerVariablesPlaceholder.java" afterDir="false" />
+    <list default="true" id="aabfee2b-253c-48c9-9841-9b0676c9cce3" name="Changes" comment="Фикс">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdkPlaceholderNsmp.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/sdkPlaceholderNsmp.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="21" />
+    <option name="cachedIndexableFilesCount" value="22" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -110,6 +109,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.agents.accounts&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -181,7 +181,10 @@
       <workItem from="1779977748696" duration="22000" />
       <workItem from="1780442190487" duration="599000" />
       <workItem from="1791489376471" duration="3124000" />
-      <workItem from="1791993970507" duration="122000" />
+      <workItem from="1791993970507" duration="2700000" />
+      <workItem from="1792077374090" duration="594000" />
+      <workItem from="1792144780283" duration="1215000" />
+      <workItem from="1793275703674" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров.">
       <option name="closed" value="true" />
@@ -231,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791490909533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавил SchedulerVariablesPlaceholder">
+      <option name="closed" value="true" />
+      <created>1791994279993</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1791994279993</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Фикс">
+      <option name="closed" value="true" />
+      <created>1791994480087</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1791994480087</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +260,12 @@
     <MESSAGE value="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров." />
     <MESSAGE value="Пакет переехал на nsmp.&#10;Повышена версия верхнеуровневых классов." />
     <MESSAGE value="тык" />
-    <option name="LAST_COMMIT_MESSAGE" value="тык" />
+    <MESSAGE value="Добавил SchedulerVariablesPlaceholder" />
+    <MESSAGE value="Фикс" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фикс" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
