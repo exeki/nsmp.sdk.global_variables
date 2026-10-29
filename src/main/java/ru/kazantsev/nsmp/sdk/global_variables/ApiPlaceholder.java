@@ -3,6 +3,7 @@ package ru.kazantsev.nsmp.sdk.global_variables;
 import org.slf4j.Logger;
 import ru.naumen.core.server.rest.IRestApi;
 import ru.naumen.core.server.script.api.*;
+import ru.naumen.core.server.script.api.eventaction.EventActionApi;
 import ru.naumen.core.server.script.api.push.INotificationApi;
 import ru.naumen.core.server.script.spi.IScriptConditionsApi;
 import ru.naumen.core.server.script.spi.IScriptUtils;
@@ -78,7 +79,10 @@ public class ApiPlaceholder {
      * Плейсхолдер базового апи nsd
      */
     static class Api {
-
+        /**
+         * Работы с действиями по событию (не задокументировано)
+         */
+        public static EventActionApi eventAction;
         /**
          * Работа с классами обслуживания
          */
