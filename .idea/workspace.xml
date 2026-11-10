@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aabfee2b-253c-48c9-9841-9b0676c9cce3" name="Changes" comment="повышена версия nsmp.sdk.upper_level_classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kazantsev/nsmp/sdk/global_variables/ApiPlaceholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kazantsev/nsmp/sdk/global_variables/ApiPlaceholder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +185,7 @@
       <workItem from="1792144780283" duration="1215000" />
       <workItem from="1793275703674" duration="2673000" />
       <workItem from="1793293284634" duration="159000" />
+      <workItem from="1793347459923" duration="2464000" />
     </task>
     <task id="LOCAL-00001" summary="Вернут папку idea в git. Добавил класс ControllerVariablesPlaceholder, содержащий плейсхолдеры для модулей - контроллеров.">
       <option name="closed" value="true" />

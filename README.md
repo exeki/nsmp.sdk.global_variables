@@ -18,8 +18,6 @@
 
 ### Подключение зависимости ###
 
-> [!TIP]  
-> Всегда используйте актуальную версию из репозитория.
 
 1. Добавьте репозиторий в конфигурационный файл gradle `build.gradle.kts` вашего проекта:
 ```kotlin
@@ -37,9 +35,11 @@ repositories {
 2. Добавьте туда же библиотеку:
 ```kotlin
 dependencies {
-    implementation("ru.kazantsev.nsmp:sdk.global_variables:<version>")
+    implementation("ru.kazantsev.nsmp.sdk:global_variables:1.6.6")
 }
 ```
+> [!TIP]  
+> Всегда используйте актуальную версию из репозитория.
 
 Для maven алгоритм такой же, но синтаксис будет другой. 
 
